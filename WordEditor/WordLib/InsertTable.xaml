@@ -1,0 +1,63 @@
+﻿<Window x:Class="ZYKJ.GreatWall.InsertTable"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZYKJ.GreatWall"
+        mc:Ignorable="d"
+        Title="表格设置" Height="280" Width="240" WindowStyle="ToolWindow">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <GroupBox Grid.ColumnSpan="4">
+            <GroupBox.Header>表格尺寸</GroupBox.Header>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="行数(_R)：" HorizontalAlignment="Left" VerticalAlignment="Center" Target="{Binding ElementName=RowCount}"/>
+                <TextBox Name="RowCount" Grid.Row="0" Grid.Column="1" Margin="0 0 10 0" HorizontalAlignment="Stretch" VerticalAlignment="Center" TabIndex="1"/>
+                <Label Grid.Row="1" Grid.Column="0" Content="列数(_C)：" HorizontalAlignment="Left" VerticalAlignment="Center" Target="{Binding ElementName=ColumnCount}"/>
+                <TextBox Name="ColumnCount" Grid.Row="1" Grid.Column="1" Margin="0 0 10 0" HorizontalAlignment="Stretch" VerticalAlignment="Center"  TabIndex="2"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Grid.Row="1" Grid.ColumnSpan="4">
+            <GroupBox.Header>自动调整方式</GroupBox.Header>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <RadioButton Name="RbFixedwidth" Grid.Row="0" Grid.Column="0" Content="固定列宽(_W)：" HorizontalAlignment="Left" VerticalAlignment="Center" GroupName="AutoFit"  TabIndex="3" IsChecked="True"></RadioButton>
+                <TextBox Name="Fixedwidth" Grid.Row="0" Grid.Column="1" Margin="0 0 10 0" HorizontalAlignment="Stretch" VerticalAlignment="Center" TabIndex="4"/>
+                <RadioButton Name="RbAutoFitContents" Grid.Row="1" Grid.Column="0" Content="根据内容调整列宽(_F)：" HorizontalAlignment="Left" VerticalAlignment="Center" GroupName="AutoFit"  TabIndex="5"></RadioButton>
+                <TextBox Name="AutoFitContents" Grid.Row="1" Grid.Column="1" Margin="0 0 10 0" HorizontalAlignment="Stretch" VerticalAlignment="Center" TabIndex="6"/>
+                <RadioButton Name="RbAutoFitWindow" Grid.Row="2" Grid.Column="0" Content="根据窗口调整列宽(_D)：" HorizontalAlignment="Left" VerticalAlignment="Center" GroupName="AutoFit" TabIndex="6"></RadioButton>
+                <TextBox Name="AutoFitWindow" Grid.Row="2" Grid.Column="1" Margin="0 0 10 0" HorizontalAlignment="Stretch" VerticalAlignment="Center"  TabIndex="7"/>
+                
+            </Grid>
+        </GroupBox>
+                        
+        <Button Name="btnDefault" Content="确定" Grid.Row="2" Grid.Column="2" IsDefault="True" Margin="10" VerticalAlignment="Center" TabIndex="8"/>
+        <Button Name="btnCancel" Content="取消" Grid.Row="2" Grid.Column="3" IsCancel="True" Margin="10" VerticalAlignment="Center" TabIndex="9"/>
+    </Grid>
+</Window>

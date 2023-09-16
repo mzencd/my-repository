@@ -1,0 +1,10 @@
+﻿<generic:GWApplication x:Class="ZYKJ.GreatWall.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ZYKJ.GreatWall"
+             xmlns:generic="clr-namespace:ZYKJ.GreatWall;assembly=Generic" 
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</generic:GWApplication>

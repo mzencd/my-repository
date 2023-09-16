@@ -1,0 +1,644 @@
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 09:55:03
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 09:56:48
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 09:56:51
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 09:57:49
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 12:31:29
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 12:36:20
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 12:37:24
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 13:16:36
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 15:01:22
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 15:17:26
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 15:37:18
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 15:38:31
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 15:49:42
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 17:41:04
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 17:41:57
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 17:52:46
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 17:53:10
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 17:58:46
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 17:59:09
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 18:04:45
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 18:05:45
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 18:12:48
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 18:13:01
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 18:19:59
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 18:20:04
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 18:20:57
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 18:33:23
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 18:57:36
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 18:59:09
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Error: 0 : [Time]:          2023-03-02 18:59:22
+WordEditor.exe Error: 0 : [File]:          D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs
+WordEditor.exe Error: 0 : [Line]:          372
+WordEditor.exe Error: 0 : [From]:          Open_Executed
+WordEditor.exe Error: 0 : [Message]:       数据格式“Rich Text Format”中无法识别的结构。
+参数名: stream
+   在 System.Windows.Documents.TextRangeBase.Load(TextRange thisRange, Stream stream, String dataFormat)
+   在 System.Windows.Documents.TextRange.LoadVirtual(Stream stream, String dataFormat)
+   在 System.Windows.Documents.TextRange.Load(Stream stream, String dataFormat)
+   在 ZYKJ.GreatWall.RichTextBoxEx.Open_Executed() 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 366
+   在 System.Windows.Documents.TextRangeBase.Load(TextRange thisRange, Stream stream, String dataFormat)
+   在 System.Windows.Documents.TextRange.LoadVirtual(Stream stream, String dataFormat)
+   在 System.Windows.Documents.TextRange.Load(Stream stream, String dataFormat)
+   在 ZYKJ.GreatWall.RichTextBoxEx.Open_Executed() 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 366
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 19:00:19
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 21:40:11
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Error: 0 : [Time]:          2023-03-02 21:41:06
+WordEditor.exe Error: 0 : [File]:          D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs
+WordEditor.exe Error: 0 : [Line]:          372
+WordEditor.exe Error: 0 : [From]:          Open_Executed
+WordEditor.exe Error: 0 : [Message]:       文件“D:\贯标_医保_测试\gw_emr_patient_entry.xml”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 ZYKJ.GreatWall.RichTextBoxEx.Open_Executed() 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 351
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 ZYKJ.GreatWall.RichTextBoxEx.Open_Executed() 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 351
+
+WordEditor.exe Error: 0 : [Time]:          2023-03-02 21:41:17
+WordEditor.exe Error: 0 : [File]:          D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs
+WordEditor.exe Error: 0 : [Line]:          372
+WordEditor.exe Error: 0 : [From]:          Open_Executed
+WordEditor.exe Error: 0 : [Message]:       文件“D:\贯标_医保_测试\gw_emr_patient_entry.xml”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 ZYKJ.GreatWall.RichTextBoxEx.Open_Executed() 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 351
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 ZYKJ.GreatWall.RichTextBoxEx.Open_Executed() 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 351
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 21:41:23
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 21:41:26
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 21:42:14
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 21:42:17
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Error: 0 : [Time]:          2023-03-02 21:43:03
+WordEditor.exe Error: 0 : [File]:          D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs
+WordEditor.exe Error: 0 : [Line]:          309
+WordEditor.exe Error: 0 : [From]:          SaveFile
+WordEditor.exe Error: 0 : [Message]:       文件“D:\贯标_医保_测试\Temp\gw_emr_2203a_input_mdtrtinfo.xml”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 ZYKJ.GreatWall.RichTextBoxEx.SaveFile(String fileName) 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 288
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 ZYKJ.GreatWall.RichTextBoxEx.SaveFile(String fileName) 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 288
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 21:43:23
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:06:31
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:07:56
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:10:13
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:10:41
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:11:35
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:12:33
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:15:55
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:16:32
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:17:23
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:18:01
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:21:14
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:21:54
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:24:23
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:44:39
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:44:49
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:45:53
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:47:25
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:48:50
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:57:51
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 22:59:22
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 23:05:01
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Error: 0 : [Time]:          2023-03-02 23:06:00
+WordEditor.exe Error: 0 : [File]:          D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs
+WordEditor.exe Error: 0 : [Line]:          317
+WordEditor.exe Error: 0 : [From]:          SaveFile
+WordEditor.exe Error: 0 : [Message]:       文件“D:\贯标_医保_测试\Temp\t2.txt”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 ZYKJ.GreatWall.RichTextBoxEx.SaveFile(String fileName) 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 296
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 ZYKJ.GreatWall.RichTextBoxEx.SaveFile(String fileName) 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 296
+
+WordEditor.exe Error: 0 : [Time]:          2023-03-02 23:06:38
+WordEditor.exe Error: 0 : [File]:          D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs
+WordEditor.exe Error: 0 : [Line]:          317
+WordEditor.exe Error: 0 : [From]:          SaveFile
+WordEditor.exe Error: 0 : [Message]:       文件“D:\贯标_医保_测试\Temp\t2.txt”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 ZYKJ.GreatWall.RichTextBoxEx.SaveFile(String fileName) 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 296
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 ZYKJ.GreatWall.RichTextBoxEx.SaveFile(String fileName) 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 296
+
+WordEditor.exe Error: 0 : [Time]:          2023-03-02 23:07:28
+WordEditor.exe Error: 0 : [File]:          D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs
+WordEditor.exe Error: 0 : [Line]:          317
+WordEditor.exe Error: 0 : [From]:          SaveFile
+WordEditor.exe Error: 0 : [Message]:       文件“D:\贯标_医保_测试\Temp\t2.txt”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 ZYKJ.GreatWall.RichTextBoxEx.SaveFile(String fileName) 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 296
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 ZYKJ.GreatWall.RichTextBoxEx.SaveFile(String fileName) 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 296
+
+WordEditor.exe Error: 0 : [Time]:          2023-03-02 23:08:45
+WordEditor.exe Error: 0 : [File]:          D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs
+WordEditor.exe Error: 0 : [Line]:          317
+WordEditor.exe Error: 0 : [From]:          SaveFile
+WordEditor.exe Error: 0 : [Message]:       文件“D:\贯标_医保_测试\Temp\t2.txt”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 ZYKJ.GreatWall.RichTextBoxEx.SaveFile(String fileName) 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 296
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 ZYKJ.GreatWall.RichTextBoxEx.SaveFile(String fileName) 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 296
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 23:08:49
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 23:09:30
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 23:15:57
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 23:16:00
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 23:17:11
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 23:20:11
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 23:20:35
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 23:22:27
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 23:22:55
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 23:25:29
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 23:36:40
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 23:53:56
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 23:54:05
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 23:54:25
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 23:54:32
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 23:54:46
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-02 23:54:52
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 00:00:06
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 00:00:14
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 00:00:32
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 00:04:27
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 00:04:51
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 00:08:42
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 00:08:59
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 00:09:47
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 00:10:59
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 00:11:26
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 00:12:53
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 00:13:12
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 00:13:34
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 00:37:19
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 00:39:43
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 00:43:24
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 00:46:07
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 00:48:07
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 18:34:34
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 18:38:23
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 20:24:58
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Error: 0 : [Time]:          2023-03-03 20:29:34
+WordEditor.exe Error: 0 : [File]:          D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs
+WordEditor.exe Error: 0 : [Line]:          382
+WordEditor.exe Error: 0 : [From]:          Open_Executed
+WordEditor.exe Error: 0 : [Message]:       文件“D:\贯标_医保_测试\Temp\gw_emr_2203a_input_mdtrtinfo.xml”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 ZYKJ.GreatWall.RichTextBoxEx.Open_Executed() 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 359
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 ZYKJ.GreatWall.RichTextBoxEx.Open_Executed() 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 359
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 20:29:49
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 20:29:56
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:00:04
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:04:34
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:15:23
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:16:37
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:17:21
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:22:04
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:24:38
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:25:58
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:26:39
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:28:11
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:34:56
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:35:04
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:37:08
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:38:33
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:39:07
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:41:40
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:43:33
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:45:22
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 21:54:26
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:01:24
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:04:26
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:05:32
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:12:40
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:20:26
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:23:08
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:29:13
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:30:19
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:33:57
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:34:37
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:34:40
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:39:30
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:42:55
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:53:39
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:54:03
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:54:06
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:54:54
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:55:30
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:56:07
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:56:10
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:56:39
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:56:42
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:57:40
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:59:06
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 22:59:44
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 23:03:07
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 23:03:36
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 23:14:13
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 23:16:26
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 23:17:03
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 23:19:56
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 23:20:26
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 23:23:15
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 23:23:22
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 23:24:31
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 23:24:40
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 23:24:43
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 23:27:10
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 23:54:11
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 23:55:49
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 23:58:16
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023-03-03 23:58:40
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023/9/16 22:16:54
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Error: 0 : [Time]:          2023/9/16 22:17:24
+WordEditor.exe Error: 0 : [File]:          D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs
+WordEditor.exe Error: 0 : [Line]:          382
+WordEditor.exe Error: 0 : [From]:          Open_Executed
+WordEditor.exe Error: 0 : [Message]:       数据格式“Rich Text Format”中无法识别的结构。
+参数名: stream
+   在 System.Windows.Documents.TextRangeBase.Load(TextRange thisRange, Stream stream, String dataFormat)
+   在 System.Windows.Documents.TextRange.LoadVirtual(Stream stream, String dataFormat)
+   在 System.Windows.Documents.TextRange.Load(Stream stream, String dataFormat)
+   在 ZYKJ.GreatWall.RichTextBoxEx.Open_Executed() 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 375
+   在 System.Windows.Documents.TextRangeBase.Load(TextRange thisRange, Stream stream, String dataFormat)
+   在 System.Windows.Documents.TextRange.LoadVirtual(Stream stream, String dataFormat)
+   在 System.Windows.Documents.TextRange.Load(Stream stream, String dataFormat)
+   在 ZYKJ.GreatWall.RichTextBoxEx.Open_Executed() 位置 D:\MyRepos\Great_Wall_6.1\GreatWallHISSolution\WordLib\RichTextBoxEx.cs:行号 375
+
+WordEditor.exe Information: 0 : [Time]:            2023/9/16 22:18:03
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023/9/16 22:22:22
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023/9/16 22:22:30
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+

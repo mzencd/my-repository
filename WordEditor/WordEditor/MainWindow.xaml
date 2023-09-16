@@ -1,0 +1,119 @@
+﻿<RibbonWindow x:Class="ZYKJ.GreatWall.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZYKJ.GreatWall"
+        xmlns:control="clr-namespace:ZYKJ.GreatWall;assembly=CustomControl"
+        xmlns:wordlib="clr-namespace:ZYKJ.GreatWall;assembly=WordLib" 
+        xmlns:view="clr-namespace:ZYKJ.GreatWall;assembly=DataView" 
+        mc:Ignorable="d"
+        Title="ZYEditor" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Ribbon Name="ribbonControl"  Background="{DynamicResource {x:Static SystemColors.MenuBarBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.InactiveBorderBrushKey}}">
+            <RibbonTab x:Name="HomePage"  Header="主页">
+                <RibbonGroup x:Name="File" Header="文件" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+                    <RibbonButton Name="New" Label="新建" LargeImageSource="Images\New.png" SmallImageSource="Images\New_16x16.png"/>
+                    <RibbonButton Name="Open" Label="打开" LargeImageSource="Images\Open.png" SmallImageSource="Images\Open_16x16.png"/>
+                    <RibbonButton Name="Save" Label="保存" LargeImageSource="Images\Save.png" SmallImageSource="Images\Save_16x16.png"/>
+                    <RibbonButton Name="SaveAs" Label="另存为" LargeImageSource="Images\Save_as.png" SmallImageSource="Images\Save_as_16x16.png"/>
+                </RibbonGroup>
+                <RibbonGroup x:Name="Printing" Header="打印" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+                    <RibbonButton Name="Print" Label="打印" LargeImageSource="Images\Print.png" SmallImageSource="Images\Print_16x16.png"/>
+                    <RibbonButton Name="PrintPreview" Label="打印预览" LargeImageSource="Images\Print_preview.png" SmallImageSource="Images\Print_preview_16x16.png"/>
+                    <!--<RibbonButton Name="PageSetup" Label="页面设置" LargeImageSource="Images\Page_setup.png" SmallImageSource="Images\Page_setup_16x16.png"/>-->
+                </RibbonGroup>
+                <RibbonGroup x:Name="ClipBoard" Header="剪贴板" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+                    <RibbonButton Name="Paste" Label="粘贴" LargeImageSource="Images\Paste.png" SmallImageSource="Images\Paste_16x16.png"/>
+                    <RibbonButton Name="Cut" Label="剪切" LargeImageSource="Images\Cut.png" SmallImageSource="Images\Cut_16x16.png"/>
+                    <RibbonButton Name="Copy" Label="复制" LargeImageSource="Images\Copy.png" SmallImageSource="Images\Copy_16x16.png"/>
+                    <RibbonButton Name="Undo" Label="Undo" LargeImageSource="Images\Undo.png" SmallImageSource="Images\Undo_16x16.png"/>
+                    <RibbonButton Name="Redo" Label="Redo" LargeImageSource="Images\Redo.png" SmallImageSource="Images\Redo_16x16.png"/>
+                </RibbonGroup>
+                <RibbonGroup x:Name="Font" Header="字体" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+                    <RibbonToggleButton Name="ToggleBold" Label="加粗" LargeImageSource="Images\Bold.png" SmallImageSource="Images\Bold_16x16.png"/>
+                    <RibbonToggleButton Name="ToggleItalic" Label="倾斜" LargeImageSource="Images\Italic.png" SmallImageSource="Images\Italic_16x16.png"/>
+                    <RibbonToggleButton Name="ToggleUnderline" Label="下划线" LargeImageSource="Images\Underline.png" SmallImageSource="Images\Underline_16x16.png"/>
+                    <RibbonToggleButton Name="ToggleStrikethrough" Label="删除线" LargeImageSource="Images\Strikethrough.png" SmallImageSource="Images\Strikethrough_16x16.png"/>
+                    <RibbonButton Name="IncreaseFontSize" Label="增大字体" LargeImageSource="Images\Font_size_more.png" SmallImageSource="Images\Font_size_more_16x16.png"/>
+                    <RibbonButton Name="DecreaseFontSize" Label="缩小字体" LargeImageSource="Images\Font_size_less.png" SmallImageSource="Images\Font_size_less_16x16.png"/>
+                    <RibbonToggleButton Name="ToggleSubscript" Label="下标" LargeImageSource="Images\Subscript.png" SmallImageSource="Images\Subscript_16x16.png"/>
+                    <RibbonToggleButton Name="ToggleSuperscript" Label="上标" LargeImageSource="Images\Superscript.png" SmallImageSource="Images\Superscript_16x16.png"/>
+
+                    <RibbonComboBox Name="FontFamilyList">
+                        <RibbonGallery Name="FontFamilyGallery">
+                            <RibbonGalleryCategory Name="FontFamilyItems"/>
+                        </RibbonGallery>
+                    </RibbonComboBox>
+                    <RibbonComboBox Name="FontSizeList">
+                        <RibbonGallery Name="FontSizeGallery">
+                            <RibbonGalleryCategory Name="FontSizeItems"/>
+                        </RibbonGallery>
+                    </RibbonComboBox>
+
+                    <control:ColorPicker Name="HighlightColor"/>
+                    <control:ColorPicker Name="ForegroundColor" ImageSource="FontColor"/>
+
+                    <!--<RibbonControlGroup>
+                        <control:ColorPicker Name="HighlightColor"/>
+                        <control:ColorPicker Name="ForegroundColor" ImageSource="FontColor"/>
+                    </RibbonControlGroup>-->
+
+                </RibbonGroup>
+                <RibbonGroup Name="Paragraph" Header="段落" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+                    <RibbonButton Name="IncreaseIndentation" Label="增加缩进" LargeImageSource="Images\IncreaseIndentation.png" SmallImageSource="Images\IncreaseIndent_16x16.png"/>
+                    <RibbonButton Name="DecreaseIndentation" Label="减少缩进" LargeImageSource="Images\DecreaseIndentation.png" SmallImageSource="Images\DecreaseIndent_16x16.png"/>
+                    <RibbonToggleButton Name="ToggleNumbering" Label="数字列表" LargeImageSource="Images\Numbering.png" SmallImageSource="Images\Numbering_16x16.png"/>
+                    <RibbonToggleButton Name="ToggleBullets" Label="符号列表" LargeImageSource="Images\Bullets.png" SmallImageSource="Images\Bullets_16x16.png"/>
+                    <RibbonMenuButton Name="RowSpacingList" Label="行距" LargeImageSource="Images\Line_space.png" SmallImageSource="Images\Line_space_16x16.png">
+                        <RibbonGallery Name="RowSpacingGallery">
+                            <RibbonGalleryCategory Name="RowSpacingItems"/>
+                        </RibbonGallery>
+                    </RibbonMenuButton>
+                    <RibbonToggleButton Name="ToggleAlignLeft" Label="向左对齐" LargeImageSource="Images\AlignLeft.png" SmallImageSource="Images\AlignLeft_16x16.png"/>
+                    <RibbonToggleButton Name="ToggleAlignCenter" Label="居中" LargeImageSource="Images\AlignCenter.png" SmallImageSource="Images\AlignCenter_16x16.png"/>
+                    <RibbonToggleButton Name="ToggleAlignRight" Label="向右对齐" LargeImageSource="Images\AlignRight.png" SmallImageSource="Images\AlignRight_16x16.png"/>
+                    <RibbonToggleButton Name="ToggleAlignJustify" Label="对齐" LargeImageSource="Images\AlignJustify.png" SmallImageSource="Images\AlignJustify_16x16.png"/>
+                    <!--<RibbonButton Name="ParagraphSetting" Label="段落设置" LargeImageSource="Images\Paragraph.png" SmallImageSource="Images\Paragraph_16x16.png"/>-->
+                </RibbonGroup>
+                <RibbonGroup Name="Insertion" Header="插入" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+                    <RibbonButton Name="InsertPicture" Label="图片" LargeImageSource="Images\Insert_image.png" SmallImageSource="Images\Insert_image_16x16.png"/>
+                    <RibbonButton Name="DateTimeList" Label="日期和时间" LargeImageSource="Images\View_calendar.png" SmallImageSource="Images\View_calendar_16x16.png"/>
+                    <RibbonButton Name="InsertTable" Label="表格" LargeImageSource="Images\Insert_table.png" SmallImageSource="Images\Insert_table_16x16.png"/>
+                </RibbonGroup>
+                <RibbonGroup Name="Edit" Header="编辑" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+                    <RibbonButton Name="Find" Label="查找" LargeImageSource="Images\Find.png" SmallImageSource="Images\Find_16x16.png"/>
+                    <RibbonButton Name="Replace" Label="替换" LargeImageSource="Images\Find_replace.png" SmallImageSource="Images\Find_replace_16x16.png"/>
+                    <RibbonButton Name="SelectAll" Label="全选" LargeImageSource="Images\Select_all.png" SmallImageSource="Images\Select_all_16x16.png"/>
+                </RibbonGroup>
+            </RibbonTab>
+            <RibbonTab x:Name="View" Header="查看">
+                <RibbonGroup Name="Zoom" Header="缩放" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+                    <RibbonButton Name="ZoomOut" Label="放大"/>
+                    <RibbonButton Name="ZoomIn" Label="缩小"/>
+                    <RibbonButton Name="AHundredPercent" Label="100%"/>
+                </RibbonGroup>
+                <RibbonGroup Name="ShowHide" Header="显示或隐藏" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+                    <RibbonCheckBox Name="Ruler" Label="标尺"/>
+                    <RibbonCheckBox Name="StatusBar" Label="状态栏"/>
+                </RibbonGroup>
+                <RibbonGroup Name="Settings" Header="设置" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+                    <RibbonComboBox Name="AutoWrap"/>
+                    <RibbonComboBox Name="MeasureUnit"/>
+                </RibbonGroup>
+                <RibbonGroup Name="Review" Header="审阅" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+                    <RibbonButton Name="Annotate" Label="批注"/>
+                    <RibbonButton Name="Revise" Label="修订"/>
+                </RibbonGroup>
+            </RibbonTab>
+        </Ribbon>
+        <!--<wordlib:RichTextBoxEx x:Name="Editor" Grid.Row="1"/>-->
+        <view:DataEditView x:Name="Editor" Grid.Row="1"/>
+        <StatusBar Grid.Row="2">就绪</StatusBar>
+    </Grid>
+</RibbonWindow>
