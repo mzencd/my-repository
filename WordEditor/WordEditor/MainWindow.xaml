@@ -92,7 +92,7 @@
                     <RibbonButton Name="SelectAll" Label="全选" LargeImageSource="Images\Select_all.png" SmallImageSource="Images\Select_all_16x16.png"/>
                 </RibbonGroup>
             </RibbonTab>
-            <RibbonTab x:Name="View" Header="查看">
+            <RibbonTab x:Name="View" Header="查看" Visibility="Collapsed">
                 <RibbonGroup Name="Zoom" Header="缩放" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
                     <RibbonButton Name="ZoomOut" Label="放大"/>
                     <RibbonButton Name="ZoomIn" Label="缩小"/>

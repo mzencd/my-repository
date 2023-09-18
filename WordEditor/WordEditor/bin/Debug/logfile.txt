@@ -642,3 +642,15 @@ WordEditor.exe Information: 0 : [Message]:         Application tracer loaded suc
 WordEditor.exe Information: 0 : [Time]:            2023/9/16 22:22:30
 WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
 
+WordEditor.exe Information: 0 : [Time]:            2023/9/19 1:54:10
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023/9/19 1:54:50
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
+WordEditor.exe Information: 0 : [Time]:            2023/9/19 1:55:25
+WordEditor.exe Information: 0 : [Message]:         Application tracer loaded successfully!
+
+WordEditor.exe Information: 0 : [Time]:            2023/9/19 1:56:02
+WordEditor.exe Information: 0 : [Message]:         Application tracer exited.
+
